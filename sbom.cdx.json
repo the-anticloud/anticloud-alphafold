@@ -1,0 +1,95 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:0c31dee4-334f-5002-b626-98d03ced4d8f",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T16:02:47Z",
+    "component": {
+      "type": "application",
+      "name": "ALPHAFOLD",
+      "version": "c77e5d2a8961",
+      "bom-ref": "pkg:generic/anticloud/ALPHAFOLD@c77e5d2a8961",
+      "purl": "pkg:generic/anticloud/ALPHAFOLD@c77e5d2a8961",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "c77e5d2a8961d1a353632c462914ff0a32a950f6"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/deepmind/alphafold"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "absl-py",
+      "version": "==1.0.0",
+      "purl": "pkg:pypi/absl-py@1.0.0",
+      "bom-ref": "pypi/absl-py@==1.0.0"
+    },
+    {
+      "type": "library",
+      "name": "biopython",
+      "version": "==1.79",
+      "purl": "pkg:pypi/biopython@1.79",
+      "bom-ref": "pypi/biopython@==1.79"
+    },
+    {
+      "type": "library",
+      "name": "dm-haiku",
+      "version": "==0.0.12",
+      "purl": "pkg:pypi/dm-haiku@0.0.12",
+      "bom-ref": "pypi/dm-haiku@==0.0.12"
+    },
+    {
+      "type": "library",
+      "name": "docker",
+      "version": "==5.0.0",
+      "purl": "pkg:pypi/docker@5.0.0",
+      "bom-ref": "pypi/docker@==5.0.0"
+    },
+    {
+      "type": "library",
+      "name": "jax",
+      "version": "==0.4.26",
+      "purl": "pkg:pypi/jax@0.4.26",
+      "bom-ref": "pypi/jax@==0.4.26"
+    },
+    {
+      "type": "library",
+      "name": "matplotlib",
+      "version": "==3.8.0",
+      "purl": "pkg:pypi/matplotlib@3.8.0",
+      "bom-ref": "pypi/matplotlib@==3.8.0"
+    },
+    {
+      "type": "library",
+      "name": "ml-collections",
+      "version": "==0.1.0",
+      "purl": "pkg:pypi/ml-collections@0.1.0",
+      "bom-ref": "pypi/ml-collections@==0.1.0"
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": "==1.24.3",
+      "purl": "pkg:pypi/numpy@1.24.3",
+      "bom-ref": "pypi/numpy@==1.24.3"
+    }
+  ]
+}
